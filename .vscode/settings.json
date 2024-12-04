@@ -41,5 +41,6 @@
     },
     "[shellscript]": {
         "editor.defaultFormatter": "foxundermoon.shell-format"
-    }
+    },
+    "terminal.integrated.cursorWidth": 5
 }
