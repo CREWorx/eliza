@@ -1,0 +1,17 @@
+{
+  "builds": [
+    {
+      "src": "client/package.json",
+      "use": "@vercel/node@22.x"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "client/$1"
+    }
+  ],
+  "engines": {
+    "node": "22.x"
+  }
+}
