@@ -2,7 +2,7 @@
   "builds": [
     {
       "src": "client/package.json",
-      "use": "@vercel/node@22.x"
+      "use": "@vercel/node"
     }
   ],
   "routes": [
