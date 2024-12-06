@@ -10,8 +10,5 @@
       "src": "/(.*)",
       "dest": "client/$1"
     }
-  ],
-  "engines": {
-    "node": "22.x"
-  }
+  ]
 }
