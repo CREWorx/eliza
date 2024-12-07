@@ -1,0 +1,2664 @@
+  - path: /pnpm-lock.yaml
+    type: file
+  - path: /docker-compose.yaml
+    type: file
+  - path: /codecov.yml
+    type: file
+  - path: /cache
+    type: directory
+    contents:
+  - path: /LICENSE
+    type: file
+  - path: /vercel.json
+    type: file
+  - path: /CHANGELOG.md
+    type: file
+  - path: /renovate.json
+    type: file
+  - path: /Dockerfile
+    type: file
+  - path: /turbo.json
+    type: file
+  - path: /agent
+    type: directory
+    contents:
+    - path: /agent/package.json
+      type: file
+    - path: /agent/tsconfig.json
+      type: file
+    - path: /agent/src
+      type: directory
+      contents:
+      - path: /agent/src/index.ts
+        type: file
+  - path: /docs
+    type: directory
+    contents:
+    - path: /docs/docs
+      type: directory
+      contents:
+      - path: /docs/docs/advanced
+        type: directory
+        contents:
+        - path: /docs/docs/advanced/autonomous-trading.md
+          type: file
+        - path: /docs/docs/advanced/trust-engine.md
+          type: file
+        - path: /docs/docs/advanced/fine-tuning.md
+          type: file
+        - path: /docs/docs/advanced/infrastructure.md
+          type: file
+      - path: /docs/docs/core
+        type: directory
+        contents:
+        - path: /docs/docs/core/characterfile.md
+          type: file
+        - path: /docs/docs/core/providers.md
+          type: file
+        - path: /docs/docs/core/evaluators.md
+          type: file
+        - path: /docs/docs/core/actions.md
+          type: file
+        - path: /docs/docs/core/agents.md
+          type: file
+      - path: /docs/docs/intro.md
+        type: file
+      - path: /docs/docs/quickstart.md
+        type: file
+      - path: /docs/docs/faq.md
+        type: file
+      - path: /docs/docs/guides
+        type: directory
+        contents:
+        - path: /docs/docs/guides/template-configuration.md
+          type: file
+        - path: /docs/docs/guides/docker-setup.md
+          type: file
+        - path: /docs/docs/guides/local-development.md
+          type: file
+        - path: /docs/docs/guides/configuration.md
+          type: file
+        - path: /docs/docs/guides/advanced.md
+          type: file
+        - path: /docs/docs/guides/secrets-management.md
+          type: file
+      - path: /docs/docs/packages
+        type: directory
+        contents:
+        - path: /docs/docs/packages/agent.md
+          type: file
+        - path: /docs/docs/packages/clients.md
+          type: file
+        - path: /docs/docs/packages/adapters.md
+          type: file
+        - path: /docs/docs/packages/plugins.md
+          type: file
+        - path: /docs/docs/packages/database-adapters.md
+          type: file
+        - path: /docs/docs/packages/packages.md
+          type: file
+        - path: /docs/docs/packages/core.md
+          type: file
+        - path: /docs/docs/packages/agents.md
+          type: file
+      - path: /docs/docs/api
+        type: directory
+        contents:
+        - path: /docs/docs/api/enumerations
+          type: directory
+          contents:
+          - path: /docs/docs/api/enumerations/Clients.md
+            type: file
+          - path: /docs/docs/api/enumerations/ModelProviderName.md
+            type: file
+          - path: /docs/docs/api/enumerations/ServiceType.md
+            type: file
+          - path: /docs/docs/api/enumerations/ModelClass.md
+            type: file
+          - path: /docs/docs/api/enumerations/GoalStatus.md
+            type: file
+        - path: /docs/docs/api/classes
+          type: directory
+          contents:
+          - path: /docs/docs/api/classes/DatabaseAdapter.md
+            type: file
+          - path: /docs/docs/api/classes/AgentRuntime.md
+            type: file
+          - path: /docs/docs/api/classes/MemoryManager.md
+            type: file
+          - path: /docs/docs/api/classes/Service.md
+            type: file
+        - path: /docs/docs/api/type-aliases
+          type: directory
+          contents:
+          - path: /docs/docs/api/type-aliases/Plugin.md
+            type: file
+          - path: /docs/docs/api/type-aliases/Character.md
+            type: file
+          - path: /docs/docs/api/type-aliases/Model.md
+            type: file
+          - path: /docs/docs/api/type-aliases/HandlerCallback.md
+            type: file
+          - path: /docs/docs/api/type-aliases/UUID.md
+            type: file
+          - path: /docs/docs/api/type-aliases/Handler.md
+            type: file
+          - path: /docs/docs/api/type-aliases/Models.md
+            type: file
+          - path: /docs/docs/api/type-aliases/Validator.md
+            type: file
+          - path: /docs/docs/api/type-aliases/Media.md
+            type: file
+          - path: /docs/docs/api/type-aliases/Client.md
+            type: file
+        - path: /docs/docs/api/typedoc-sidebar.cjs
+          type: file
+        - path: /docs/docs/api/_media
+          type: directory
+          contents:
+          - path: /docs/docs/api/_media/README_KOR.md
+            type: file
+          - path: /docs/docs/api/_media/README_JA.md
+            type: file
+          - path: /docs/docs/api/_media/README_CN.md
+            type: file
+          - path: /docs/docs/api/_media/README_FR.md
+            type: file
+        - path: /docs/docs/api/index.md
+          type: file
+        - path: /docs/docs/api/variables
+          type: directory
+          contents:
+          - path: /docs/docs/api/variables/defaultCharacter.md
+            type: file
+          - path: /docs/docs/api/variables/settings.md
+            type: file
+          - path: /docs/docs/api/variables/embeddingZeroVector.md
+            type: file
+          - path: /docs/docs/api/variables/embeddingDimension.md
+            type: file
+          - path: /docs/docs/api/variables/evaluationTemplate.md
+            type: file
+          - path: /docs/docs/api/variables/elizaLogger.md
+            type: file
+        - path: /docs/docs/api/functions
+          type: directory
+          contents:
+          - path: /docs/docs/api/functions/generateShouldRespond.md
+            type: file
+          - path: /docs/docs/api/functions/createGoal.md
+            type: file
+          - path: /docs/docs/api/functions/composeContext.md
+            type: file
+          - path: /docs/docs/api/functions/getActorDetails.md
+            type: file
+          - path: /docs/docs/api/functions/updateGoal.md
+            type: file
+          - path: /docs/docs/api/functions/findNearestEnvFile.md
+            type: file
+          - path: /docs/docs/api/functions/formatPosts.md
+            type: file
+          - path: /docs/docs/api/functions/formatRelationships.md
+            type: file
+          - path: /docs/docs/api/functions/getModel.md
+            type: file
+          - path: /docs/docs/api/functions/getRelationships.md
+            type: file
+          - path: /docs/docs/api/functions/generateTrueOrFalse.md
+            type: file
+          - path: /docs/docs/api/functions/generateText.md
+            type: file
+          - path: /docs/docs/api/functions/composeActionExamples.md
+            type: file
+          - path: /docs/docs/api/functions/trimTokens.md
+            type: file
+          - path: /docs/docs/api/functions/formatActors.md
+            type: file
+          - path: /docs/docs/api/functions/getProviders.md
+            type: file
+          - path: /docs/docs/api/functions/getGoals.md
+            type: file
+          - path: /docs/docs/api/functions/formatMessages.md
+            type: file
+          - path: /docs/docs/api/functions/generateObject.md
+            type: file
+          - path: /docs/docs/api/functions/getEndpoint.md
+            type: file
+          - path: /docs/docs/api/functions/loadEnvConfig.md
+            type: file
+          - path: /docs/docs/api/functions/embed.md
+            type: file
+          - path: /docs/docs/api/functions/formatGoalsAsString.md
+            type: file
+          - path: /docs/docs/api/functions/formatEvaluatorExampleDescriptions.md
+            type: file
+          - path: /docs/docs/api/functions/generateCaption.md
+            type: file
+          - path: /docs/docs/api/functions/getRelationship.md
+            type: file
+          - path: /docs/docs/api/functions/addHeader.md
+            type: file
+          - path: /docs/docs/api/functions/splitChunks.md
+            type: file
+          - path: /docs/docs/api/functions/formatEvaluatorNames.md
+            type: file
+          - path: /docs/docs/api/functions/formatActionNames.md
+            type: file
+          - path: /docs/docs/api/functions/retrieveCachedEmbedding.md
+            type: file
+          - path: /docs/docs/api/functions/formatEvaluators.md
+            type: file
+          - path: /docs/docs/api/functions/formatEvaluatorExamples.md
+            type: file
+          - path: /docs/docs/api/functions/generateImage.md
+            type: file
+          - path: /docs/docs/api/functions/generateTextArray.md
+            type: file
+          - path: /docs/docs/api/functions/generateObjectArray.md
+            type: file
+          - path: /docs/docs/api/functions/formatTimestamp.md
+            type: file
+          - path: /docs/docs/api/functions/formatActions.md
+            type: file
+          - path: /docs/docs/api/functions/createRelationship.md
+            type: file
+          - path: /docs/docs/api/functions/generateMessageResponse.md
+            type: file
+        - path: /docs/docs/api/interfaces
+          type: directory
+          contents:
+          - path: /docs/docs/api/interfaces/IAgentRuntime.md
+            type: file
+          - path: /docs/docs/api/interfaces/ConversationExample.md
+            type: file
+          - path: /docs/docs/api/interfaces/Content.md
+            type: file
+          - path: /docs/docs/api/interfaces/IDatabaseAdapter.md
+            type: file
+          - path: /docs/docs/api/interfaces/Participant.md
+            type: file
+          - path: /docs/docs/api/interfaces/Evaluator.md
+            type: file
+          - path: /docs/docs/api/interfaces/IBrowserService.md
+            type: file
+          - path: /docs/docs/api/interfaces/Account.md
+            type: file
+          - path: /docs/docs/api/interfaces/State.md
+            type: file
+          - path: /docs/docs/api/interfaces/Room.md
+            type: file
+          - path: /docs/docs/api/interfaces/Goal.md
+            type: file
+          - path: /docs/docs/api/interfaces/ActionExample.md
+            type: file
+          - path: /docs/docs/api/interfaces/Actor.md
+            type: file
+          - path: /docs/docs/api/interfaces/ITranscriptionService.md
+            type: file
+          - path: /docs/docs/api/interfaces/Relationship.md
+            type: file
+          - path: /docs/docs/api/interfaces/Memory.md
+            type: file
+          - path: /docs/docs/api/interfaces/Provider.md
+            type: file
+          - path: /docs/docs/api/interfaces/IMemoryManager.md
+            type: file
+          - path: /docs/docs/api/interfaces/Objective.md
+            type: file
+          - path: /docs/docs/api/interfaces/IPdfService.md
+            type: file
+          - path: /docs/docs/api/interfaces/IVideoService.md
+            type: file
+          - path: /docs/docs/api/interfaces/ISpeechService.md
+            type: file
+          - path: /docs/docs/api/interfaces/MessageExample.md
+            type: file
+          - path: /docs/docs/api/interfaces/IImageDescriptionService.md
+            type: file
+          - path: /docs/docs/api/interfaces/Action.md
+            type: file
+          - path: /docs/docs/api/interfaces/EvaluationExample.md
+            type: file
+          - path: /docs/docs/api/interfaces/ITextGenerationService.md
+            type: file
+        - path: /docs/docs/api/globals.md
+          type: file
+    - path: /docs/README.md
+      type: file
+    - path: /docs/README_CN.md
+      type: file
+    - path: /docs/backup-sidebars-community.js
+      type: file
+    - path: /docs/babel.config.js
+      type: file
+    - path: /docs/package-lock.json
+      type: file
+    - path: /docs/package.json
+      type: file
+    - path: /docs/static
+      type: directory
+      contents:
+      - path: /docs/static/img
+        type: directory
+        contents:
+        - path: /docs/static/img/overload2.jpg
+          type: file
+        - path: /docs/static/img/favicon.ico
+          type: file
+        - path: /docs/static/img/blurback.png
+          type: file
+        - path: /docs/static/img/background.jpg
+          type: file
+        - path: /docs/static/img/discord_llm_pipeline2.jpg
+          type: file
+        - path: /docs/static/img/logo.svg
+          type: file
+        - path: /docs/static/img/eliza_banner.jpg
+          type: file
+    - path: /docs/README_FR.md
+      type: file
+    - path: /docs/sidebars.js.bak
+      type: file
+    - path: /docs/api
+      type: directory
+      contents:
+      - path: /docs/api/enumerations
+        type: directory
+        contents:
+        - path: /docs/api/enumerations/Clients.md
+          type: file
+        - path: /docs/api/enumerations/ModelProviderName.md
+          type: file
+        - path: /docs/api/enumerations/ServiceType.md
+          type: file
+        - path: /docs/api/enumerations/ModelClass.md
+          type: file
+        - path: /docs/api/enumerations/GoalStatus.md
+          type: file
+        - path: /docs/api/enumerations/LoggingLevel.md
+          type: file
+      - path: /docs/api/classes
+        type: directory
+        contents:
+        - path: /docs/api/classes/DatabaseAdapter.md
+          type: file
+        - path: /docs/api/classes/FsCacheAdapter.md
+          type: file
+        - path: /docs/api/classes/CacheManager.md
+          type: file
+        - path: /docs/api/classes/DbCacheAdapter.md
+          type: file
+        - path: /docs/api/classes/AgentRuntime.md
+          type: file
+        - path: /docs/api/classes/MemoryManager.md
+          type: file
+        - path: /docs/api/classes/MemoryCacheAdapter.md
+          type: file
+        - path: /docs/api/classes/Service.md
+          type: file
+      - path: /docs/api/type-aliases
+        type: directory
+        contents:
+        - path: /docs/api/type-aliases/EnvConfig.md
+          type: file
+        - path: /docs/api/type-aliases/Plugin.md
+          type: file
+        - path: /docs/api/type-aliases/Character.md
+          type: file
+        - path: /docs/api/type-aliases/Model.md
+          type: file
+        - path: /docs/api/type-aliases/SearchResult.md
+          type: file
+        - path: /docs/api/type-aliases/KnowledgeItem.md
+          type: file
+        - path: /docs/api/type-aliases/HandlerCallback.md
+          type: file
+        - path: /docs/api/type-aliases/UUID.md
+          type: file
+        - path: /docs/api/type-aliases/CharacterConfig.md
+          type: file
+        - path: /docs/api/type-aliases/SearchResponse.md
+          type: file
+        - path: /docs/api/type-aliases/Handler.md
+          type: file
+        - path: /docs/api/type-aliases/Models.md
+          type: file
+        - path: /docs/api/type-aliases/Validator.md
+          type: file
+        - path: /docs/api/type-aliases/Media.md
+          type: file
+        - path: /docs/api/type-aliases/CacheOptions.md
+          type: file
+        - path: /docs/api/type-aliases/Client.md
+          type: file
+      - path: /docs/api/typedoc-sidebar.cjs
+        type: file
+      - path: /docs/api/index.md
+        type: file
+      - path: /docs/api/variables
+        type: directory
+        contents:
+        - path: /docs/api/variables/defaultCharacter.md
+          type: file
+        - path: /docs/api/variables/stringArrayFooter.md
+          type: file
+        - path: /docs/api/variables/settings.md
+          type: file
+        - path: /docs/api/variables/knowledge.md
+          type: file
+        - path: /docs/api/variables/messageCompletionFooter.md
+          type: file
+        - path: /docs/api/variables/models.md
+          type: file
+        - path: /docs/api/variables/CharacterSchema.md
+          type: file
+        - path: /docs/api/variables/evaluationTemplate.md
+          type: file
+        - path: /docs/api/variables/elizaLogger.md
+          type: file
+        - path: /docs/api/variables/envSchema.md
+          type: file
+        - path: /docs/api/variables/booleanFooter.md
+          type: file
+        - path: /docs/api/variables/shouldRespondFooter.md
+          type: file
+      - path: /docs/api/functions
+        type: directory
+        contents:
+        - path: /docs/api/functions/generateShouldRespond.md
+          type: file
+        - path: /docs/api/functions/createGoal.md
+          type: file
+        - path: /docs/api/functions/composeContext.md
+          type: file
+        - path: /docs/api/functions/getActorDetails.md
+          type: file
+        - path: /docs/api/functions/updateGoal.md
+          type: file
+        - path: /docs/api/functions/getEmbeddingConfig.md
+          type: file
+        - path: /docs/api/functions/findNearestEnvFile.md
+          type: file
+        - path: /docs/api/functions/stringToUuid.md
+          type: file
+        - path: /docs/api/functions/formatPosts.md
+          type: file
+        - path: /docs/api/functions/formatRelationships.md
+          type: file
+        - path: /docs/api/functions/parseShouldRespondFromText.md
+          type: file
+        - path: /docs/api/functions/parseBooleanFromText.md
+          type: file
+        - path: /docs/api/functions/getModel.md
+          type: file
+        - path: /docs/api/functions/getRelationships.md
+          type: file
+        - path: /docs/api/functions/generateWebSearch.md
+          type: file
+        - path: /docs/api/functions/generateTrueOrFalse.md
+          type: file
+        - path: /docs/api/functions/generateText.md
+          type: file
+        - path: /docs/api/functions/composeActionExamples.md
+          type: file
+        - path: /docs/api/functions/trimTokens.md
+          type: file
+        - path: /docs/api/functions/handleProvider.md
+          type: file
+        - path: /docs/api/functions/getEmbeddingType.md
+          type: file
+        - path: /docs/api/functions/hasEnvVariable.md
+          type: file
+        - path: /docs/api/functions/formatActors.md
+          type: file
+        - path: /docs/api/functions/getProviders.md
+          type: file
+        - path: /docs/api/functions/getGoals.md
+          type: file
+        - path: /docs/api/functions/formatMessages.md
+          type: file
+        - path: /docs/api/functions/generateObject.md
+          type: file
+        - path: /docs/api/functions/getEndpoint.md
+          type: file
+        - path: /docs/api/functions/loadEnvConfig.md
+          type: file
+        - path: /docs/api/functions/embed.md
+          type: file
+        - path: /docs/api/functions/formatGoalsAsString.md
+          type: file
+        - path: /docs/api/functions/validateCharacterConfig.md
+          type: file
+        - path: /docs/api/functions/formatEvaluatorExampleDescriptions.md
+          type: file
+        - path: /docs/api/functions/generateObjectV2.md
+          type: file
+        - path: /docs/api/functions/validateEnv.md
+          type: file
+        - path: /docs/api/functions/configureSettings.md
+          type: file
+        - path: /docs/api/functions/generateCaption.md
+          type: file
+        - path: /docs/api/functions/getRelationship.md
+          type: file
+        - path: /docs/api/functions/addHeader.md
+          type: file
+        - path: /docs/api/functions/splitChunks.md
+          type: file
+        - path: /docs/api/functions/formatEvaluatorNames.md
+          type: file
+        - path: /docs/api/functions/formatActionNames.md
+          type: file
+        - path: /docs/api/functions/formatEvaluators.md
+          type: file
+        - path: /docs/api/functions/formatEvaluatorExamples.md
+          type: file
+        - path: /docs/api/functions/generateImage.md
+          type: file
+        - path: /docs/api/functions/generateTextArray.md
+          type: file
+        - path: /docs/api/functions/generateObjectArray.md
+          type: file
+        - path: /docs/api/functions/formatTimestamp.md
+          type: file
+        - path: /docs/api/functions/formatActions.md
+          type: file
+        - path: /docs/api/functions/createRelationship.md
+          type: file
+        - path: /docs/api/functions/generateMessageResponse.md
+          type: file
+        - path: /docs/api/functions/parseJSONObjectFromText.md
+          type: file
+        - path: /docs/api/functions/parseJsonArrayFromText.md
+          type: file
+        - path: /docs/api/functions/getEnvVariable.md
+          type: file
+        - path: /docs/api/functions/getEmbeddingZeroVector.md
+          type: file
+      - path: /docs/api/interfaces
+        type: directory
+        contents:
+        - path: /docs/api/interfaces/IAgentRuntime.md
+          type: file
+        - path: /docs/api/interfaces/ConversationExample.md
+          type: file
+        - path: /docs/api/interfaces/GenerationOptions.md
+          type: file
+        - path: /docs/api/interfaces/Content.md
+          type: file
+        - path: /docs/api/interfaces/IDatabaseAdapter.md
+          type: file
+        - path: /docs/api/interfaces/Participant.md
+          type: file
+        - path: /docs/api/interfaces/Evaluator.md
+          type: file
+        - path: /docs/api/interfaces/IBrowserService.md
+          type: file
+        - path: /docs/api/interfaces/Account.md
+          type: file
+        - path: /docs/api/interfaces/ICacheManager.md
+          type: file
+        - path: /docs/api/interfaces/State.md
+          type: file
+        - path: /docs/api/interfaces/Room.md
+          type: file
+        - path: /docs/api/interfaces/Goal.md
+          type: file
+        - path: /docs/api/interfaces/ActionExample.md
+          type: file
+        - path: /docs/api/interfaces/Actor.md
+          type: file
+        - path: /docs/api/interfaces/ITranscriptionService.md
+          type: file
+        - path: /docs/api/interfaces/Relationship.md
+          type: file
+        - path: /docs/api/interfaces/Memory.md
+          type: file
+        - path: /docs/api/interfaces/Provider.md
+          type: file
+        - path: /docs/api/interfaces/IDatabaseCacheAdapter.md
+          type: file
+        - path: /docs/api/interfaces/IMemoryManager.md
+          type: file
+        - path: /docs/api/interfaces/Objective.md
+          type: file
+        - path: /docs/api/interfaces/IPdfService.md
+          type: file
+        - path: /docs/api/interfaces/IVideoService.md
+          type: file
+        - path: /docs/api/interfaces/ISpeechService.md
+          type: file
+        - path: /docs/api/interfaces/MessageExample.md
+          type: file
+        - path: /docs/api/interfaces/IImageDescriptionService.md
+          type: file
+        - path: /docs/api/interfaces/Action.md
+          type: file
+        - path: /docs/api/interfaces/EvaluationExample.md
+          type: file
+        - path: /docs/api/interfaces/ITextGenerationService.md
+          type: file
+        - path: /docs/api/interfaces/ICacheAdapter.md
+          type: file
+    - path: /docs/docusaurus.config.js
+      type: file
+    - path: /docs/community
+      type: directory
+      contents:
+      - path: /docs/community/Discord
+        type: directory
+        contents:
+        - path: /docs/community/Discord/development
+          type: directory
+          contents:
+          - path: /docs/community/Discord/development/dev-contributors
+            type: directory
+            contents:
+            - path: /docs/community/Discord/development/dev-contributors/chat_2024-11-23.md
+              type: file
+            - path: /docs/community/Discord/development/dev-contributors/chat_2024-11-22.md
+              type: file
+            - path: /docs/community/Discord/development/dev-contributors/chat_2024-11-26.md
+              type: file
+            - path: /docs/community/Discord/development/dev-contributors/chat_2024-11-21.md
+              type: file
+            - path: /docs/community/Discord/development/dev-contributors/chat_2024-11-25.md
+              type: file
+            - path: /docs/community/Discord/development/dev-contributors/chat_2024-11-24.md
+              type: file
+            - path: /docs/community/Discord/development/dev-contributors/chat_2024-11-20.md
+              type: file
+          - path: /docs/community/Discord/development/dev-vc
+            type: directory
+            contents:
+            - path: /docs/community/Discord/development/dev-vc/chat_2024-11-17.md
+              type: file
+            - path: /docs/community/Discord/development/dev-vc/chat_2024-11-16.md
+              type: file
+            - path: /docs/community/Discord/development/dev-vc/chat_2024-11-22.md
+              type: file
+            - path: /docs/community/Discord/development/dev-vc/chat_2024-11-26.md
+              type: file
+            - path: /docs/community/Discord/development/dev-vc/chat_2024-11-12.md
+              type: file
+            - path: /docs/community/Discord/development/dev-vc/chat_2024-11-19.md
+              type: file
+            - path: /docs/community/Discord/development/dev-vc/chat_2024-11-18.md
+              type: file
+            - path: /docs/community/Discord/development/dev-vc/chat_2024-11-15.md
+              type: file
+            - path: /docs/community/Discord/development/dev-vc/chat_2024-11-11.md
+              type: file
+            - path: /docs/community/Discord/development/dev-vc/chat_2024-11-24.md
+              type: file
+            - path: /docs/community/Discord/development/dev-vc/chat_2024-11-20.md
+              type: file
+          - path: /docs/community/Discord/development/coders
+            type: directory
+            contents:
+            - path: /docs/community/Discord/development/coders/chat_2024-11-03.md
+              type: file
+            - path: /docs/community/Discord/development/coders/chat_2024-10-29.md
+              type: file
+            - path: /docs/community/Discord/development/coders/chat_2024-11-13.md
+              type: file
+            - path: /docs/community/Discord/development/coders/chat_2024-11-07.md
+              type: file
+            - path: /docs/community/Discord/development/coders/chat_2024-11-17.md
+              type: file
+            - path: /docs/community/Discord/development/coders/chat_2024-11-23.md
+              type: file
+            - path: /docs/community/Discord/development/coders/chat_2024-11-06.md
+              type: file
+            - path: /docs/community/Discord/development/coders/chat_2024-11-16.md
+              type: file
+            - path: /docs/community/Discord/development/coders/chat_2024-11-22.md
+              type: file
+            - path: /docs/community/Discord/development/coders/chat_2024-11-02.md
+              type: file
+            - path: /docs/community/Discord/development/coders/chat_2024-10-28.md
+              type: file
+            - path: /docs/community/Discord/development/coders/chat_2024-11-26.md
+              type: file
+            - path: /docs/community/Discord/development/coders/chat_2024-11-12.md
+              type: file
+            - path: /docs/community/Discord/development/coders/chat_2024-11-09.md
+              type: file
+            - path: /docs/community/Discord/development/coders/chat_2024-11-19.md
+              type: file
+            - path: /docs/community/Discord/development/coders/chat_2024-10-27.md
+              type: file
+            - path: /docs/community/Discord/development/coders/chat_2024-11-08.md
+              type: file
+            - path: /docs/community/Discord/development/coders/chat_2024-11-18.md
+              type: file
+            - path: /docs/community/Discord/development/coders/chat_2024-10-31.md
+              type: file
+            - path: /docs/community/Discord/development/coders/chat_2024-10-30.md
+              type: file
+            - path: /docs/community/Discord/development/coders/chat_2024-11-05.md
+              type: file
+            - path: /docs/community/Discord/development/coders/chat_2024-11-15.md
+              type: file
+            - path: /docs/community/Discord/development/coders/chat_2024-11-21.md
+              type: file
+            - path: /docs/community/Discord/development/coders/chat_2024-11-01.md
+              type: file
+            - path: /docs/community/Discord/development/coders/chat_2024-11-25.md
+              type: file
+            - path: /docs/community/Discord/development/coders/chat_2024-11-11.md
+              type: file
+            - path: /docs/community/Discord/development/coders/chat_2024-11-24.md
+              type: file
+            - path: /docs/community/Discord/development/coders/chat_2024-11-10.md
+              type: file
+            - path: /docs/community/Discord/development/coders/chat_2024-11-04.md
+              type: file
+            - path: /docs/community/Discord/development/coders/chat_2024-11-14.md
+              type: file
+            - path: /docs/community/Discord/development/coders/chat_2024-11-20.md
+              type: file
+        - path: /docs/community/Discord/the_arena
+          type: directory
+          contents:
+          - path: /docs/community/Discord/the_arena/memes-and-marketing
+            type: directory
+            contents:
+            - path: /docs/community/Discord/the_arena/memes-and-marketing/chat_2024-11-03.md
+              type: file
+            - path: /docs/community/Discord/the_arena/memes-and-marketing/chat_2024-10-29.md
+              type: file
+            - path: /docs/community/Discord/the_arena/memes-and-marketing/chat_2024-11-13.md
+              type: file
+            - path: /docs/community/Discord/the_arena/memes-and-marketing/chat_2024-11-07.md
+              type: file
+            - path: /docs/community/Discord/the_arena/memes-and-marketing/chat_2024-11-17.md
+              type: file
+            - path: /docs/community/Discord/the_arena/memes-and-marketing/chat_2024-11-23.md
+              type: file
+            - path: /docs/community/Discord/the_arena/memes-and-marketing/chat_2024-11-06.md
+              type: file
+            - path: /docs/community/Discord/the_arena/memes-and-marketing/chat_2024-11-16.md
+              type: file
+            - path: /docs/community/Discord/the_arena/memes-and-marketing/chat_2024-11-22.md
+              type: file
+            - path: /docs/community/Discord/the_arena/memes-and-marketing/chat_2024-11-02.md
+              type: file
+            - path: /docs/community/Discord/the_arena/memes-and-marketing/chat_2024-10-28.md
+              type: file
+            - path: /docs/community/Discord/the_arena/memes-and-marketing/chat_2024-11-26.md
+              type: file
+            - path: /docs/community/Discord/the_arena/memes-and-marketing/chat_2024-11-12.md
+              type: file
+            - path: /docs/community/Discord/the_arena/memes-and-marketing/chat_2024-11-09.md
+              type: file
+            - path: /docs/community/Discord/the_arena/memes-and-marketing/chat_2024-11-19.md
+              type: file
+            - path: /docs/community/Discord/the_arena/memes-and-marketing/chat_2024-10-27.md
+              type: file
+            - path: /docs/community/Discord/the_arena/memes-and-marketing/chat_2024-10-26.md
+              type: file
+            - path: /docs/community/Discord/the_arena/memes-and-marketing/chat_2024-11-08.md
+              type: file
+            - path: /docs/community/Discord/the_arena/memes-and-marketing/chat_2024-11-18.md
+              type: file
+            - path: /docs/community/Discord/the_arena/memes-and-marketing/chat_2024-10-31.md
+              type: file
+            - path: /docs/community/Discord/the_arena/memes-and-marketing/chat_2024-10-30.md
+              type: file
+            - path: /docs/community/Discord/the_arena/memes-and-marketing/chat_2024-11-05.md
+              type: file
+            - path: /docs/community/Discord/the_arena/memes-and-marketing/chat_2024-11-15.md
+              type: file
+            - path: /docs/community/Discord/the_arena/memes-and-marketing/chat_2024-11-21.md
+              type: file
+            - path: /docs/community/Discord/the_arena/memes-and-marketing/chat_2024-11-01.md
+              type: file
+            - path: /docs/community/Discord/the_arena/memes-and-marketing/chat_2024-11-25.md
+              type: file
+            - path: /docs/community/Discord/the_arena/memes-and-marketing/chat_2024-11-11.md
+              type: file
+            - path: /docs/community/Discord/the_arena/memes-and-marketing/chat_2024-11-24.md
+              type: file
+            - path: /docs/community/Discord/the_arena/memes-and-marketing/chat_2024-11-10.md
+              type: file
+            - path: /docs/community/Discord/the_arena/memes-and-marketing/chat_2024-11-04.md
+              type: file
+            - path: /docs/community/Discord/the_arena/memes-and-marketing/chat_2024-11-14.md
+              type: file
+            - path: /docs/community/Discord/the_arena/memes-and-marketing/chat_2024-11-20.md
+              type: file
+          - path: /docs/community/Discord/the_arena/twitter
+            type: directory
+            contents:
+            - path: /docs/community/Discord/the_arena/twitter/chat_2024-11-03.md
+              type: file
+            - path: /docs/community/Discord/the_arena/twitter/chat_2024-10-29.md
+              type: file
+            - path: /docs/community/Discord/the_arena/twitter/chat_2024-11-13.md
+              type: file
+            - path: /docs/community/Discord/the_arena/twitter/chat_2024-11-07.md
+              type: file
+            - path: /docs/community/Discord/the_arena/twitter/chat_2024-11-17.md
+              type: file
+            - path: /docs/community/Discord/the_arena/twitter/chat_2024-11-23.md
+              type: file
+            - path: /docs/community/Discord/the_arena/twitter/chat_2024-11-06.md
+              type: file
+            - path: /docs/community/Discord/the_arena/twitter/chat_2024-11-16.md
+              type: file
+            - path: /docs/community/Discord/the_arena/twitter/chat_2024-11-22.md
+              type: file
+            - path: /docs/community/Discord/the_arena/twitter/chat_2024-11-02.md
+              type: file
+            - path: /docs/community/Discord/the_arena/twitter/chat_2024-10-28.md
+              type: file
+            - path: /docs/community/Discord/the_arena/twitter/chat_2024-11-26.md
+              type: file
+            - path: /docs/community/Discord/the_arena/twitter/chat_2024-11-12.md
+              type: file
+            - path: /docs/community/Discord/the_arena/twitter/chat_2024-11-09.md
+              type: file
+            - path: /docs/community/Discord/the_arena/twitter/chat_2024-11-19.md
+              type: file
+            - path: /docs/community/Discord/the_arena/twitter/chat_2024-11-08.md
+              type: file
+            - path: /docs/community/Discord/the_arena/twitter/chat_2024-11-18.md
+              type: file
+            - path: /docs/community/Discord/the_arena/twitter/chat_2024-10-31.md
+              type: file
+            - path: /docs/community/Discord/the_arena/twitter/chat_2024-10-30.md
+              type: file
+            - path: /docs/community/Discord/the_arena/twitter/chat_2024-11-05.md
+              type: file
+            - path: /docs/community/Discord/the_arena/twitter/chat_2024-11-15.md
+              type: file
+            - path: /docs/community/Discord/the_arena/twitter/chat_2024-11-21.md
+              type: file
+            - path: /docs/community/Discord/the_arena/twitter/chat_2024-11-01.md
+              type: file
+            - path: /docs/community/Discord/the_arena/twitter/chat_2024-11-25.md
+              type: file
+            - path: /docs/community/Discord/the_arena/twitter/chat_2024-11-11.md
+              type: file
+            - path: /docs/community/Discord/the_arena/twitter/chat_2024-11-24.md
+              type: file
+            - path: /docs/community/Discord/the_arena/twitter/chat_2024-11-10.md
+              type: file
+            - path: /docs/community/Discord/the_arena/twitter/chat_2024-11-04.md
+              type: file
+            - path: /docs/community/Discord/the_arena/twitter/chat_2024-11-14.md
+              type: file
+            - path: /docs/community/Discord/the_arena/twitter/chat_2024-11-20.md
+              type: file
+          - path: /docs/community/Discord/the_arena/ideas-feedback-rants
+            type: directory
+            contents:
+            - path: /docs/community/Discord/the_arena/ideas-feedback-rants/chat_2024-11-03.md
+              type: file
+            - path: /docs/community/Discord/the_arena/ideas-feedback-rants/chat_2024-10-29.md
+              type: file
+            - path: /docs/community/Discord/the_arena/ideas-feedback-rants/chat_2024-11-13.md
+              type: file
+            - path: /docs/community/Discord/the_arena/ideas-feedback-rants/chat_2024-11-07.md
+              type: file
+            - path: /docs/community/Discord/the_arena/ideas-feedback-rants/chat_2024-11-17.md
+              type: file
+            - path: /docs/community/Discord/the_arena/ideas-feedback-rants/chat_2024-11-23.md
+              type: file
+            - path: /docs/community/Discord/the_arena/ideas-feedback-rants/chat_2024-11-06.md
+              type: file
+            - path: /docs/community/Discord/the_arena/ideas-feedback-rants/chat_2024-11-16.md
+              type: file
+            - path: /docs/community/Discord/the_arena/ideas-feedback-rants/chat_2024-11-22.md
+              type: file
+            - path: /docs/community/Discord/the_arena/ideas-feedback-rants/chat_2024-11-02.md
+              type: file
+            - path: /docs/community/Discord/the_arena/ideas-feedback-rants/chat_2024-11-26.md
+              type: file
+            - path: /docs/community/Discord/the_arena/ideas-feedback-rants/chat_2024-11-12.md
+              type: file
+            - path: /docs/community/Discord/the_arena/ideas-feedback-rants/chat_2024-11-09.md
+              type: file
+            - path: /docs/community/Discord/the_arena/ideas-feedback-rants/chat_2024-11-19.md
+              type: file
+            - path: /docs/community/Discord/the_arena/ideas-feedback-rants/chat_2024-11-08.md
+              type: file
+            - path: /docs/community/Discord/the_arena/ideas-feedback-rants/chat_2024-11-18.md
+              type: file
+            - path: /docs/community/Discord/the_arena/ideas-feedback-rants/chat_2024-10-31.md
+              type: file
+            - path: /docs/community/Discord/the_arena/ideas-feedback-rants/chat_2024-10-30.md
+              type: file
+            - path: /docs/community/Discord/the_arena/ideas-feedback-rants/chat_2024-11-05.md
+              type: file
+            - path: /docs/community/Discord/the_arena/ideas-feedback-rants/chat_2024-11-15.md
+              type: file
+            - path: /docs/community/Discord/the_arena/ideas-feedback-rants/chat_2024-11-21.md
+              type: file
+            - path: /docs/community/Discord/the_arena/ideas-feedback-rants/chat_2024-11-01.md
+              type: file
+            - path: /docs/community/Discord/the_arena/ideas-feedback-rants/chat_2024-11-25.md
+              type: file
+            - path: /docs/community/Discord/the_arena/ideas-feedback-rants/chat_2024-11-11.md
+              type: file
+            - path: /docs/community/Discord/the_arena/ideas-feedback-rants/chat_2024-11-24.md
+              type: file
+            - path: /docs/community/Discord/the_arena/ideas-feedback-rants/chat_2024-11-10.md
+              type: file
+            - path: /docs/community/Discord/the_arena/ideas-feedback-rants/chat_2024-11-04.md
+              type: file
+            - path: /docs/community/Discord/the_arena/ideas-feedback-rants/chat_2024-11-14.md
+              type: file
+            - path: /docs/community/Discord/the_arena/ideas-feedback-rants/chat_2024-11-20.md
+              type: file
+          - path: /docs/community/Discord/the_arena/price-talk-trenches
+            type: directory
+            contents:
+            - path: /docs/community/Discord/the_arena/price-talk-trenches/chat_2024-11-03.md
+              type: file
+            - path: /docs/community/Discord/the_arena/price-talk-trenches/chat_2024-10-29.md
+              type: file
+            - path: /docs/community/Discord/the_arena/price-talk-trenches/chat_2024-11-13.md
+              type: file
+            - path: /docs/community/Discord/the_arena/price-talk-trenches/chat_2024-11-07.md
+              type: file
+            - path: /docs/community/Discord/the_arena/price-talk-trenches/chat_2024-11-17.md
+              type: file
+            - path: /docs/community/Discord/the_arena/price-talk-trenches/chat_2024-11-23.md
+              type: file
+            - path: /docs/community/Discord/the_arena/price-talk-trenches/chat_2024-11-06.md
+              type: file
+            - path: /docs/community/Discord/the_arena/price-talk-trenches/chat_2024-11-16.md
+              type: file
+            - path: /docs/community/Discord/the_arena/price-talk-trenches/chat_2024-11-22.md
+              type: file
+            - path: /docs/community/Discord/the_arena/price-talk-trenches/chat_2024-11-02.md
+              type: file
+            - path: /docs/community/Discord/the_arena/price-talk-trenches/chat_2024-10-28.md
+              type: file
+            - path: /docs/community/Discord/the_arena/price-talk-trenches/chat_2024-11-26.md
+              type: file
+            - path: /docs/community/Discord/the_arena/price-talk-trenches/chat_2024-11-12.md
+              type: file
+            - path: /docs/community/Discord/the_arena/price-talk-trenches/chat_2024-11-09.md
+              type: file
+            - path: /docs/community/Discord/the_arena/price-talk-trenches/chat_2024-11-19.md
+              type: file
+            - path: /docs/community/Discord/the_arena/price-talk-trenches/chat_2024-10-27.md
+              type: file
+            - path: /docs/community/Discord/the_arena/price-talk-trenches/chat_2024-10-26.md
+              type: file
+            - path: /docs/community/Discord/the_arena/price-talk-trenches/chat_2024-11-08.md
+              type: file
+            - path: /docs/community/Discord/the_arena/price-talk-trenches/chat_2024-11-18.md
+              type: file
+            - path: /docs/community/Discord/the_arena/price-talk-trenches/chat_2024-10-31.md
+              type: file
+            - path: /docs/community/Discord/the_arena/price-talk-trenches/chat_2024-10-30.md
+              type: file
+            - path: /docs/community/Discord/the_arena/price-talk-trenches/chat_2024-11-05.md
+              type: file
+            - path: /docs/community/Discord/the_arena/price-talk-trenches/chat_2024-11-15.md
+              type: file
+            - path: /docs/community/Discord/the_arena/price-talk-trenches/chat_2024-11-21.md
+              type: file
+            - path: /docs/community/Discord/the_arena/price-talk-trenches/chat_2024-11-01.md
+              type: file
+            - path: /docs/community/Discord/the_arena/price-talk-trenches/chat_2024-11-25.md
+              type: file
+            - path: /docs/community/Discord/the_arena/price-talk-trenches/chat_2024-11-11.md
+              type: file
+            - path: /docs/community/Discord/the_arena/price-talk-trenches/chat_2024-11-24.md
+              type: file
+            - path: /docs/community/Discord/the_arena/price-talk-trenches/chat_2024-11-10.md
+              type: file
+            - path: /docs/community/Discord/the_arena/price-talk-trenches/chat_2024-11-04.md
+              type: file
+            - path: /docs/community/Discord/the_arena/price-talk-trenches/chat_2024-11-14.md
+              type: file
+            - path: /docs/community/Discord/the_arena/price-talk-trenches/chat_2024-11-20.md
+              type: file
+          - path: /docs/community/Discord/the_arena/the-arena
+            type: directory
+            contents:
+            - path: /docs/community/Discord/the_arena/the-arena/chat_2024-11-03.md
+              type: file
+            - path: /docs/community/Discord/the_arena/the-arena/chat_2024-10-29.md
+              type: file
+            - path: /docs/community/Discord/the_arena/the-arena/chat_2024-11-13.md
+              type: file
+            - path: /docs/community/Discord/the_arena/the-arena/chat_2024-11-07.md
+              type: file
+            - path: /docs/community/Discord/the_arena/the-arena/chat_2024-11-17.md
+              type: file
+            - path: /docs/community/Discord/the_arena/the-arena/chat_2024-11-23.md
+              type: file
+            - path: /docs/community/Discord/the_arena/the-arena/chat_2024-11-06.md
+              type: file
+            - path: /docs/community/Discord/the_arena/the-arena/chat_2024-11-16.md
+              type: file
+            - path: /docs/community/Discord/the_arena/the-arena/chat_2024-11-22.md
+              type: file
+            - path: /docs/community/Discord/the_arena/the-arena/chat_2024-11-02.md
+              type: file
+            - path: /docs/community/Discord/the_arena/the-arena/chat_2024-10-28.md
+              type: file
+            - path: /docs/community/Discord/the_arena/the-arena/chat_2024-11-26.md
+              type: file
+            - path: /docs/community/Discord/the_arena/the-arena/chat_2024-11-12.md
+              type: file
+            - path: /docs/community/Discord/the_arena/the-arena/chat_2024-11-09.md
+              type: file
+            - path: /docs/community/Discord/the_arena/the-arena/chat_2024-10-23.md
+              type: file
+            - path: /docs/community/Discord/the_arena/the-arena/chat_2024-11-19.md
+              type: file
+            - path: /docs/community/Discord/the_arena/the-arena/chat_2024-10-27.md
+              type: file
+            - path: /docs/community/Discord/the_arena/the-arena/chat_2024-10-26.md
+              type: file
+            - path: /docs/community/Discord/the_arena/the-arena/chat_2024-11-08.md
+              type: file
+            - path: /docs/community/Discord/the_arena/the-arena/chat_2024-10-22.md
+              type: file
+            - path: /docs/community/Discord/the_arena/the-arena/chat_2024-11-18.md
+              type: file
+            - path: /docs/community/Discord/the_arena/the-arena/chat_2024-10-25.md
+              type: file
+            - path: /docs/community/Discord/the_arena/the-arena/chat_2024-10-31.md
+              type: file
+            - path: /docs/community/Discord/the_arena/the-arena/chat_2024-10-30.md
+              type: file
+            - path: /docs/community/Discord/the_arena/the-arena/chat_2024-10-24.md
+              type: file
+            - path: /docs/community/Discord/the_arena/the-arena/chat_2024-11-05.md
+              type: file
+            - path: /docs/community/Discord/the_arena/the-arena/chat_2024-11-15.md
+              type: file
+            - path: /docs/community/Discord/the_arena/the-arena/chat_2024-11-21.md
+              type: file
+            - path: /docs/community/Discord/the_arena/the-arena/chat_2024-11-01.md
+              type: file
+            - path: /docs/community/Discord/the_arena/the-arena/chat_2024-11-25.md
+              type: file
+            - path: /docs/community/Discord/the_arena/the-arena/chat_2024-11-11.md
+              type: file
+            - path: /docs/community/Discord/the_arena/the-arena/chat_2024-11-24.md
+              type: file
+            - path: /docs/community/Discord/the_arena/the-arena/chat_2024-11-10.md
+              type: file
+            - path: /docs/community/Discord/the_arena/the-arena/chat_2024-11-04.md
+              type: file
+            - path: /docs/community/Discord/the_arena/the-arena/chat_2024-11-14.md
+              type: file
+            - path: /docs/community/Discord/the_arena/the-arena/chat_2024-11-20.md
+              type: file
+          - path: /docs/community/Discord/the_arena/discussion
+            type: directory
+            contents:
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-11-03.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-06-24.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-10-29.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-11-13.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-11-07.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-06-20.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-08-17.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-08-07.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-09-09.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-06-30.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-11-17.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-11-23.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-11-06.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-06-21.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-09-18.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-09-08.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-11-16.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-11-22.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-11-02.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-08-12.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-06-25.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-10-28.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-11-26.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-11-12.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-09-17.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-07-14.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-07-20.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-09-23.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-11-09.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-10-23.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-11-19.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-10-17.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-07-30.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-07-04.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-09-27.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-07-24.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-07-10.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-09-13.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-10-03.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-10-27.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-07-25.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-07-11.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-09-12.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-10-26.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-07-01.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-07-15.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-07-21.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-11-08.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-10-22.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-11-18.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-10-16.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-07-05.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-07-26.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-06-28.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-09-11.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-07-12.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-10-25.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-07-02.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-07-16.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-07-22.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-10-05.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-10-31.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-07-06.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-07-17.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-07-23.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-10-04.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-10-30.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-07-07.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-06-29.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-09-10.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-07-13.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-10-24.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-07-03.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-11-05.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-06-22.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-08-15.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-07-18.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-07-08.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-11-15.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-11-21.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-11-01.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-06-26.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-11-25.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-11-11.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-06-27.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-07-29.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-11-24.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-11-10.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-11-04.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-06-23.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-07-19.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-07-09.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-11-14.md
+              type: file
+            - path: /docs/community/Discord/the_arena/discussion/chat_2024-11-20.md
+              type: file
+          - path: /docs/community/Discord/the_arena/degenspartanai
+            type: directory
+            contents:
+            - path: /docs/community/Discord/the_arena/degenspartanai/chat_2024-11-23.md
+              type: file
+            - path: /docs/community/Discord/the_arena/degenspartanai/chat_2024-11-22.md
+              type: file
+            - path: /docs/community/Discord/the_arena/degenspartanai/chat_2024-11-26.md
+              type: file
+            - path: /docs/community/Discord/the_arena/degenspartanai/chat_2024-11-19.md
+              type: file
+            - path: /docs/community/Discord/the_arena/degenspartanai/chat_2024-11-18.md
+              type: file
+            - path: /docs/community/Discord/the_arena/degenspartanai/chat_2024-11-21.md
+              type: file
+            - path: /docs/community/Discord/the_arena/degenspartanai/chat_2024-11-25.md
+              type: file
+            - path: /docs/community/Discord/the_arena/degenspartanai/chat_2024-11-24.md
+              type: file
+            - path: /docs/community/Discord/the_arena/degenspartanai/chat_2024-11-20.md
+              type: file
+      - path: /docs/community/Streams
+        type: directory
+        contents:
+        - path: /docs/community/Streams/10-2024
+          type: directory
+          contents:
+          - path: /docs/community/Streams/10-2024/2024-10-29.md
+            type: file
+          - path: /docs/community/Streams/10-2024/2024-10-27.md
+            type: file
+          - path: /docs/community/Streams/10-2024/2024-10-25.md
+            type: file
+        - path: /docs/community/Streams/11-2024
+          type: directory
+          contents:
+          - path: /docs/community/Streams/11-2024/2024-11-06.md
+            type: file
+          - path: /docs/community/Streams/11-2024/2024-11-22.md
+            type: file
+          - path: /docs/community/Streams/11-2024/2024-11-26.md
+            type: file
+          - path: /docs/community/Streams/11-2024/2024-11-29.md
+            type: file
+          - path: /docs/community/Streams/11-2024/2024-11-28.md
+            type: file
+          - path: /docs/community/Streams/11-2024/2024-11-08.md
+            type: file
+          - path: /docs/community/Streams/11-2024/2024-11-21.md
+            type: file
+          - path: /docs/community/Streams/11-2024/2024-11-15.md
+            type: file
+          - path: /docs/community/Streams/11-2024/2024-11-10.md
+            type: file
+          - path: /docs/community/Streams/11-2024/2024-11-24.md
+            type: file
+      - path: /docs/community/creator-fund.md
+        type: file
+      - path: /docs/community/profiles.mdx
+        type: file
+      - path: /docs/community/index.md
+        type: file
+    - path: /docs/sidebars.js
+      type: file
+    - path: /docs/src
+      type: directory
+      contents:
+      - path: /docs/src/css
+        type: directory
+        contents:
+        - path: /docs/src/css/custom.css
+          type: file
+      - path: /docs/src/components
+        type: directory
+        contents:
+        - path: /docs/src/components/HomepageHeader
+          type: directory
+          contents:
+          - path: /docs/src/components/HomepageHeader/styles.module.css
+            type: file
+          - path: /docs/src/components/HomepageHeader/index.jsx
+            type: file
+        - path: /docs/src/components/HomepageFeatures
+          type: directory
+          contents:
+          - path: /docs/src/components/HomepageFeatures/styles.module.css
+            type: file
+          - path: /docs/src/components/HomepageFeatures/index.jsx
+            type: file
+      - path: /docs/src/pages
+        type: directory
+        contents:
+        - path: /docs/src/pages/index.module.css
+          type: file
+        - path: /docs/src/pages/markdown-page.md
+          type: file
+        - path: /docs/src/pages/index.jsx
+          type: file
+  - path: /README.md
+    type: file
+  - path: /package.json
+    type: file
+  - path: /prettier.config.cjs
+    type: file
+  - path: /CONTRIBUTING.md
+    type: file
+  - path: /scripts
+    type: directory
+    contents:
+    - path: /scripts/derive-keys.js
+      type: file
+    - path: /scripts/dev.sh
+      type: file
+    - path: /scripts/lint.sh
+      type: file
+    - path: /scripts/extracttweets.js
+      type: file
+    - path: /scripts/migrateCache.js
+      type: file
+    - path: /scripts/gettweets.mjs
+      type: file
+    - path: /scripts/clean.sh
+      type: file
+    - path: /scripts/test.sh
+      type: file
+    - path: /scripts/docker.sh
+      type: file
+    - path: /scripts/start.sh
+      type: file
+  - path: /packages
+    type: directory
+    contents:
+    - path: /packages/plugin-video-generation
+      type: directory
+      contents:
+      - path: /packages/plugin-video-generation/package.json
+        type: file
+      - path: /packages/plugin-video-generation/tsup.config.ts
+        type: file
+      - path: /packages/plugin-video-generation/tsconfig.json
+        type: file
+      - path: /packages/plugin-video-generation/eslint.config.mjs
+        type: file
+      - path: /packages/plugin-video-generation/src
+        type: directory
+        contents:
+        - path: /packages/plugin-video-generation/src/constants.ts
+          type: file
+        - path: /packages/plugin-video-generation/src/index.ts
+          type: file
+    - path: /packages/client-farcaster
+      type: directory
+      contents:
+      - path: /packages/client-farcaster/package.json
+        type: file
+      - path: /packages/client-farcaster/tsup.config.ts
+        type: file
+      - path: /packages/client-farcaster/tsconfig.json
+        type: file
+      - path: /packages/client-farcaster/src
+        type: directory
+        contents:
+        - path: /packages/client-farcaster/src/interactions.ts
+          type: file
+        - path: /packages/client-farcaster/src/utils.ts
+          type: file
+        - path: /packages/client-farcaster/src/prompts.ts
+          type: file
+        - path: /packages/client-farcaster/src/types.ts
+          type: file
+        - path: /packages/client-farcaster/src/actions.ts
+          type: file
+        - path: /packages/client-farcaster/src/client.ts
+          type: file
+        - path: /packages/client-farcaster/src/memory.ts
+          type: file
+        - path: /packages/client-farcaster/src/index.ts
+          type: file
+        - path: /packages/client-farcaster/src/post.ts
+          type: file
+    - path: /packages/client-auto
+      type: directory
+      contents:
+      - path: /packages/client-auto/package.json
+        type: file
+      - path: /packages/client-auto/tsup.config.ts
+        type: file
+      - path: /packages/client-auto/tsconfig.json
+        type: file
+      - path: /packages/client-auto/eslint.config.mjs
+        type: file
+      - path: /packages/client-auto/src
+        type: directory
+        contents:
+        - path: /packages/client-auto/src/index.ts
+          type: file
+    - path: /packages/plugin-node
+      type: directory
+      contents:
+      - path: /packages/plugin-node/package.json
+        type: file
+      - path: /packages/plugin-node/tsup.config.ts
+        type: file
+      - path: /packages/plugin-node/scripts
+        type: directory
+        contents:
+        - path: /packages/plugin-node/scripts/postinstall.js
+          type: file
+      - path: /packages/plugin-node/tsconfig.json
+        type: file
+      - path: /packages/plugin-node/eslint.config.mjs
+        type: file
+      - path: /packages/plugin-node/src
+        type: directory
+        contents:
+        - path: /packages/plugin-node/src/environment.ts
+          type: file
+        - path: /packages/plugin-node/src/index.ts
+          type: file
+        - path: /packages/plugin-node/src/services
+          type: directory
+          contents:
+          - path: /packages/plugin-node/src/services/image.ts
+            type: file
+          - path: /packages/plugin-node/src/services/video.ts
+            type: file
+          - path: /packages/plugin-node/src/services/speech.ts
+            type: file
+          - path: /packages/plugin-node/src/services/llama.ts
+            type: file
+          - path: /packages/plugin-node/src/services/audioUtils.ts
+            type: file
+          - path: /packages/plugin-node/src/services/browser.ts
+            type: file
+          - path: /packages/plugin-node/src/services/pdf.ts
+            type: file
+          - path: /packages/plugin-node/src/services/index.ts
+            type: file
+          - path: /packages/plugin-node/src/services/transcription.ts
+            type: file
+        - path: /packages/plugin-node/src/echogarden.d.ts
+          type: file
+        - path: /packages/plugin-node/src/vendor
+          type: directory
+          contents:
+          - path: /packages/plugin-node/src/vendor/vitsVoiceList.ts
+            type: file
+    - path: /packages/core
+      type: directory
+      contents:
+      - path: /packages/core/nodemon.json
+        type: file
+      - path: /packages/core/types
+        type: directory
+        contents:
+        - path: /packages/core/types/index.d.ts
+          type: file
+      - path: /packages/core/elizaConfig.example.yaml
+        type: file
+      - path: /packages/core/renovate.json
+        type: file
+      - path: /packages/core/package.json
+        type: file
+      - path: /packages/core/tsconfig.build.json
+        type: file
+      - path: /packages/core/tsup.config.ts
+        type: file
+      - path: /packages/core/tsconfig.json
+        type: file
+      - path: /packages/core/vitest.config.ts
+        type: file
+      - path: /packages/core/eslint.config.mjs
+        type: file
+      - path: /packages/core/README-TESTS.md
+        type: file
+      - path: /packages/core/src
+        type: directory
+        contents:
+        - path: /packages/core/src/evaluators.ts
+          type: file
+        - path: /packages/core/src/relationships.ts
+          type: file
+        - path: /packages/core/src/database
+          type: directory
+          contents:
+          - path: /packages/core/src/database/CircuitBreaker.ts
+            type: file
+        - path: /packages/core/src/uuid.ts
+          type: file
+        - path: /packages/core/src/knowledge.ts
+          type: file
+        - path: /packages/core/src/defaultCharacter.ts
+          type: file
+        - path: /packages/core/src/messages.ts
+          type: file
+        - path: /packages/core/src/settings.ts
+          type: file
+        - path: /packages/core/src/environment.ts
+          type: file
+        - path: /packages/core/src/tests
+          type: directory
+          contents:
+          - path: /packages/core/src/tests/videoGeneration.test.ts
+            type: file
+          - path: /packages/core/src/tests/messages.test.ts
+            type: file
+          - path: /packages/core/src/tests/relationships.test.ts
+            type: file
+          - path: /packages/core/src/tests/models.test.ts
+            type: file
+          - path: /packages/core/src/tests/env.test.ts
+            type: file
+          - path: /packages/core/src/tests/cache.test.ts
+            type: file
+          - path: /packages/core/src/tests/goals.test.ts
+            type: file
+          - path: /packages/core/src/tests/generation.test.ts
+            type: file
+          - path: /packages/core/src/tests/evaluators.test.ts
+            type: file
+          - path: /packages/core/src/tests/database.test.ts
+            type: file
+          - path: /packages/core/src/tests/providers.test.ts
+            type: file
+          - path: /packages/core/src/tests/actions.test.ts
+            type: file
+          - path: /packages/core/src/tests/posts.test.ts
+            type: file
+          - path: /packages/core/src/tests/defaultCharacters.test.ts
+            type: file
+        - path: /packages/core/src/context.ts
+          type: file
+        - path: /packages/core/src/utils.ts
+          type: file
+        - path: /packages/core/src/providers.ts
+          type: file
+        - path: /packages/core/src/runtime.ts
+          type: file
+        - path: /packages/core/src/types.ts
+          type: file
+        - path: /packages/core/src/logger.ts
+          type: file
+        - path: /packages/core/src/cache.ts
+          type: file
+        - path: /packages/core/src/actions.ts
+          type: file
+        - path: /packages/core/src/posts.ts
+          type: file
+        - path: /packages/core/src/database.ts
+          type: file
+        - path: /packages/core/src/goals.ts
+          type: file
+        - path: /packages/core/src/memory.ts
+          type: file
+        - path: /packages/core/src/embedding.ts
+          type: file
+        - path: /packages/core/src/index.ts
+          type: file
+        - path: /packages/core/src/models.ts
+          type: file
+        - path: /packages/core/src/parsing.ts
+          type: file
+        - path: /packages/core/src/generation.ts
+          type: file
+        - path: /packages/core/src/config.ts
+          type: file
+        - path: /packages/core/src/test_resources
+          type: directory
+          contents:
+          - path: /packages/core/src/test_resources/types.ts
+            type: file
+          - path: /packages/core/src/test_resources/constants.ts
+            type: file
+          - path: /packages/core/src/test_resources/testSetup.ts
+            type: file
+          - path: /packages/core/src/test_resources/createRuntime.ts
+            type: file
+    - path: /packages/plugin-coinbase
+      type: directory
+      contents:
+      - path: /packages/plugin-coinbase/advanced-sdk-ts
+        type: directory
+        contents:
+      - path: /packages/plugin-coinbase/package-lock.json
+        type: file
+      - path: /packages/plugin-coinbase/package.json
+        type: file
+      - path: /packages/plugin-coinbase/tsup.config.ts
+        type: file
+      - path: /packages/plugin-coinbase/tsconfig.json
+        type: file
+      - path: /packages/plugin-coinbase/eslint.config.mjs
+        type: file
+      - path: /packages/plugin-coinbase/src
+        type: directory
+        contents:
+        - path: /packages/plugin-coinbase/src/plugins
+          type: directory
+          contents:
+          - path: /packages/plugin-coinbase/src/plugins/trades.csv
+            type: file
+          - path: /packages/plugin-coinbase/src/plugins/trade.ts
+            type: file
+          - path: /packages/plugin-coinbase/src/plugins/transactions.csv
+            type: file
+          - path: /packages/plugin-coinbase/src/plugins/massPayments.ts
+            type: file
+          - path: /packages/plugin-coinbase/src/plugins/commerce.ts
+            type: file
+        - path: /packages/plugin-coinbase/src/utils.ts
+          type: file
+        - path: /packages/plugin-coinbase/src/templates.ts
+          type: file
+        - path: /packages/plugin-coinbase/src/types.ts
+          type: file
+        - path: /packages/plugin-coinbase/src/index.ts
+          type: file
+    - path: /packages/plugin-solana
+      type: directory
+      contents:
+      - path: /packages/plugin-solana/package.json
+        type: file
+      - path: /packages/plugin-solana/tsup.config.ts
+        type: file
+      - path: /packages/plugin-solana/tsconfig.json
+        type: file
+      - path: /packages/plugin-solana/eslint.config.mjs
+        type: file
+      - path: /packages/plugin-solana/src
+        type: directory
+        contents:
+        - path: /packages/plugin-solana/src/types
+          type: directory
+          contents:
+          - path: /packages/plugin-solana/src/types/token.ts
+            type: file
+        - path: /packages/plugin-solana/src/environment.ts
+          type: file
+        - path: /packages/plugin-solana/src/providers
+          type: directory
+          contents:
+          - path: /packages/plugin-solana/src/providers/wallet.ts
+            type: file
+          - path: /packages/plugin-solana/src/providers/simulationSellingService.ts
+            type: file
+          - path: /packages/plugin-solana/src/providers/tokenUtils.ts
+            type: file
+          - path: /packages/plugin-solana/src/providers/trustScoreProvider.ts
+            type: file
+          - path: /packages/plugin-solana/src/providers/orderBook.ts
+            type: file
+          - path: /packages/plugin-solana/src/providers/token.ts
+            type: file
+        - path: /packages/plugin-solana/src/tests
+          type: directory
+          contents:
+          - path: /packages/plugin-solana/src/tests/token.test.ts
+            type: file
+        - path: /packages/plugin-solana/src/evaluators
+          type: directory
+          contents:
+          - path: /packages/plugin-solana/src/evaluators/trust.ts
+            type: file
+        - path: /packages/plugin-solana/src/actions
+          type: directory
+          contents:
+          - path: /packages/plugin-solana/src/actions/swapUtils.ts
+            type: file
+          - path: /packages/plugin-solana/src/actions/takeOrder.ts
+            type: file
+          - path: /packages/plugin-solana/src/actions/transfer.ts
+            type: file
+          - path: /packages/plugin-solana/src/actions/swap.ts
+            type: file
+          - path: /packages/plugin-solana/src/actions/pumpfun.ts
+            type: file
+          - path: /packages/plugin-solana/src/actions/swapDao.ts
+            type: file
+        - path: /packages/plugin-solana/src/index.ts
+          type: file
+        - path: /packages/plugin-solana/src/bignumber.ts
+          type: file
+    - path: /packages/adapter-sqlite
+      type: directory
+      contents:
+      - path: /packages/adapter-sqlite/package.json
+        type: file
+      - path: /packages/adapter-sqlite/tsup.config.ts
+        type: file
+      - path: /packages/adapter-sqlite/tsconfig.json
+        type: file
+      - path: /packages/adapter-sqlite/eslint.config.mjs
+        type: file
+      - path: /packages/adapter-sqlite/src
+        type: directory
+        contents:
+        - path: /packages/adapter-sqlite/src/sqliteTables.ts
+          type: file
+        - path: /packages/adapter-sqlite/src/index.ts
+          type: file
+        - path: /packages/adapter-sqlite/src/sqlite_vec.ts
+          type: file
+    - path: /packages/client-github
+      type: directory
+      contents:
+      - path: /packages/client-github/package.json
+        type: file
+      - path: /packages/client-github/tsup.config.ts
+        type: file
+      - path: /packages/client-github/tsconfig.json
+        type: file
+      - path: /packages/client-github/eslint.config.mjs
+        type: file
+      - path: /packages/client-github/src
+        type: directory
+        contents:
+        - path: /packages/client-github/src/environment.ts
+          type: file
+        - path: /packages/client-github/src/index.ts
+          type: file
+    - path: /packages/plugin-trustdb
+      type: directory
+      contents:
+      - path: /packages/plugin-trustdb/package.json
+        type: file
+      - path: /packages/plugin-trustdb/tsup.config.ts
+        type: file
+      - path: /packages/plugin-trustdb/tsconfig.json
+        type: file
+      - path: /packages/plugin-trustdb/eslint.config.mjs
+        type: file
+      - path: /packages/plugin-trustdb/src
+        type: directory
+        contents:
+        - path: /packages/plugin-trustdb/src/adapters
+          type: directory
+          contents:
+          - path: /packages/plugin-trustdb/src/adapters/trustScoreDatabase.ts
+            type: file
+        - path: /packages/plugin-trustdb/src/index.ts
+          type: file
+    - path: /packages/debug_audio
+      type: directory
+      contents:
+    - path: /packages/plugin-0g
+      type: directory
+      contents:
+      - path: /packages/plugin-0g/readme.md
+        type: file
+      - path: /packages/plugin-0g/package.json
+        type: file
+      - path: /packages/plugin-0g/tsup.config.ts
+        type: file
+      - path: /packages/plugin-0g/tsconfig.json
+        type: file
+      - path: /packages/plugin-0g/src
+        type: directory
+        contents:
+        - path: /packages/plugin-0g/src/actions
+          type: directory
+          contents:
+          - path: /packages/plugin-0g/src/actions/upload.ts
+            type: file
+        - path: /packages/plugin-0g/src/templates
+          type: directory
+          contents:
+          - path: /packages/plugin-0g/src/templates/upload.ts
+            type: file
+        - path: /packages/plugin-0g/src/index.ts
+          type: file
+    - path: /packages/plugin-evm
+      type: directory
+      contents:
+      - path: /packages/plugin-evm/package.json
+        type: file
+      - path: /packages/plugin-evm/tsup.config.ts
+        type: file
+      - path: /packages/plugin-evm/tsconfig.json
+        type: file
+      - path: /packages/plugin-evm/src
+        type: directory
+        contents:
+        - path: /packages/plugin-evm/src/types
+          type: directory
+          contents:
+          - path: /packages/plugin-evm/src/types/index.ts
+            type: file
+        - path: /packages/plugin-evm/src/providers
+          type: directory
+          contents:
+          - path: /packages/plugin-evm/src/providers/wallet.ts
+            type: file
+        - path: /packages/plugin-evm/src/actions
+          type: directory
+          contents:
+          - path: /packages/plugin-evm/src/actions/transfer.ts
+            type: file
+          - path: /packages/plugin-evm/src/actions/bridge.ts
+            type: file
+          - path: /packages/plugin-evm/src/actions/swap.ts
+            type: file
+        - path: /packages/plugin-evm/src/templates
+          type: directory
+          contents:
+          - path: /packages/plugin-evm/src/templates/index.ts
+            type: file
+        - path: /packages/plugin-evm/src/index.ts
+          type: file
+    - path: /packages/plugin-conflux
+      type: directory
+      contents:
+      - path: /packages/plugin-conflux/README.md
+        type: file
+      - path: /packages/plugin-conflux/package.json
+        type: file
+      - path: /packages/plugin-conflux/tsup.config.ts
+        type: file
+      - path: /packages/plugin-conflux/tsconfig.json
+        type: file
+      - path: /packages/plugin-conflux/src
+        type: directory
+        contents:
+        - path: /packages/plugin-conflux/src/abi
+          type: directory
+          contents:
+          - path: /packages/plugin-conflux/src/abi/crossSpaceCall.ts
+            type: file
+          - path: /packages/plugin-conflux/src/abi/erc20.ts
+            type: file
+          - path: /packages/plugin-conflux/src/abi/meme.ts
+            type: file
+        - path: /packages/plugin-conflux/src/types.ts
+          type: file
+        - path: /packages/plugin-conflux/src/actions
+          type: directory
+          contents:
+          - path: /packages/plugin-conflux/src/actions/confiPump.ts
+            type: file
+          - path: /packages/plugin-conflux/src/actions/transfer.ts
+            type: file
+          - path: /packages/plugin-conflux/src/actions/bridgeTransfer.ts
+            type: file
+        - path: /packages/plugin-conflux/src/templates
+          type: directory
+          contents:
+          - path: /packages/plugin-conflux/src/templates/confiPump.ts
+            type: file
+          - path: /packages/plugin-conflux/src/templates/transfer.ts
+            type: file
+          - path: /packages/plugin-conflux/src/templates/bridgeTransfer.ts
+            type: file
+        - path: /packages/plugin-conflux/src/index.ts
+          type: file
+    - path: /packages/plugin-goat
+      type: directory
+      contents:
+      - path: /packages/plugin-goat/README.md
+        type: file
+      - path: /packages/plugin-goat/package.json
+        type: file
+      - path: /packages/plugin-goat/tsup.config.ts
+        type: file
+      - path: /packages/plugin-goat/tsconfig.json
+        type: file
+      - path: /packages/plugin-goat/src
+        type: directory
+        contents:
+        - path: /packages/plugin-goat/src/actions.ts
+          type: file
+        - path: /packages/plugin-goat/src/index.ts
+          type: file
+        - path: /packages/plugin-goat/src/provider.ts
+          type: file
+    - path: /packages/plugin-buttplug
+      type: directory
+      contents:
+      - path: /packages/plugin-buttplug/test
+        type: directory
+        contents:
+        - path: /packages/plugin-buttplug/test/buttplug-user-device-config-test.json
+          type: file
+        - path: /packages/plugin-buttplug/test/simulate.ts
+          type: file
+        - path: /packages/plugin-buttplug/test/fake-buttplug.ts
+          type: file
+      - path: /packages/plugin-buttplug/intiface-engine
+        type: directory
+        contents:
+        - path: /packages/plugin-buttplug/intiface-engine/CHANGELOG.md
+          type: file
+        - path: /packages/plugin-buttplug/intiface-engine/intiface-engine
+          type: file
+        - path: /packages/plugin-buttplug/intiface-engine/README.md
+          type: file
+      - path: /packages/plugin-buttplug/package.json
+        type: file
+      - path: /packages/plugin-buttplug/tsup.config.ts
+        type: file
+      - path: /packages/plugin-buttplug/tsconfig.json
+        type: file
+      - path: /packages/plugin-buttplug/src
+        type: directory
+        contents:
+        - path: /packages/plugin-buttplug/src/environment.ts
+          type: file
+        - path: /packages/plugin-buttplug/src/buttplug-user-device-config.json
+          type: file
+        - path: /packages/plugin-buttplug/src/utils.ts
+          type: file
+        - path: /packages/plugin-buttplug/src/index.ts
+          type: file
+    - path: /packages/plugin-whatsapp
+      type: directory
+      contents:
+      - path: /packages/plugin-whatsapp/Readme.md
+        type: file
+      - path: /packages/plugin-whatsapp/package.json
+        type: file
+      - path: /packages/plugin-whatsapp/tsup.config.ts
+        type: file
+      - path: /packages/plugin-whatsapp/tsconfig.json
+        type: file
+      - path: /packages/plugin-whatsapp/eslint.config.mjs
+        type: file
+      - path: /packages/plugin-whatsapp/src
+        type: directory
+        contents:
+        - path: /packages/plugin-whatsapp/src/utils
+          type: directory
+          contents:
+          - path: /packages/plugin-whatsapp/src/utils/validators.ts
+            type: file
+          - path: /packages/plugin-whatsapp/src/utils/index.ts
+            type: file
+        - path: /packages/plugin-whatsapp/src/types.ts
+          type: file
+        - path: /packages/plugin-whatsapp/src/client.ts
+          type: file
+        - path: /packages/plugin-whatsapp/src/index.ts
+          type: file
+        - path: /packages/plugin-whatsapp/src/handlers
+          type: directory
+          contents:
+          - path: /packages/plugin-whatsapp/src/handlers/message.handler.ts
+            type: file
+          - path: /packages/plugin-whatsapp/src/handlers/webhook.handler.ts
+            type: file
+          - path: /packages/plugin-whatsapp/src/handlers/index.ts
+            type: file
+    - path: /packages/plugin-icp
+      type: directory
+      contents:
+      - path: /packages/plugin-icp/package.json
+        type: file
+      - path: /packages/plugin-icp/tsup.config.ts
+        type: file
+      - path: /packages/plugin-icp/tsconfig.json
+        type: file
+      - path: /packages/plugin-icp/src
+        type: directory
+        contents:
+        - path: /packages/plugin-icp/src/apis
+          type: directory
+          contents:
+          - path: /packages/plugin-icp/src/apis/uploadFile.ts
+            type: file
+        - path: /packages/plugin-icp/src/canisters
+          type: directory
+          contents:
+          - path: /packages/plugin-icp/src/canisters/pick-pump
+            type: directory
+            contents:
+            - path: /packages/plugin-icp/src/canisters/pick-pump/index.did.ts
+              type: file
+            - path: /packages/plugin-icp/src/canisters/pick-pump/index.did.d.ts
+              type: file
+          - path: /packages/plugin-icp/src/canisters/token-icrc1
+            type: directory
+            contents:
+            - path: /packages/plugin-icp/src/canisters/token-icrc1/index.did.ts
+              type: file
+            - path: /packages/plugin-icp/src/canisters/token-icrc1/index.did.d.ts
+              type: file
+        - path: /packages/plugin-icp/src/constants
+          type: directory
+          contents:
+          - path: /packages/plugin-icp/src/constants/apis.ts
+            type: file
+          - path: /packages/plugin-icp/src/constants/canisters.ts
+            type: file
+        - path: /packages/plugin-icp/src/providers
+          type: directory
+          contents:
+          - path: /packages/plugin-icp/src/providers/wallet.ts
+            type: file
+        - path: /packages/plugin-icp/src/utils
+          type: directory
+          contents:
+          - path: /packages/plugin-icp/src/utils/common
+            type: directory
+            contents:
+            - path: /packages/plugin-icp/src/utils/common/types
+              type: directory
+              contents:
+              - path: /packages/plugin-icp/src/utils/common/types/variant.ts
+                type: file
+              - path: /packages/plugin-icp/src/utils/common/types/bigint.ts
+                type: file
+              - path: /packages/plugin-icp/src/utils/common/types/results.ts
+                type: file
+              - path: /packages/plugin-icp/src/utils/common/types/options.ts
+                type: file
+            - path: /packages/plugin-icp/src/utils/common/data
+              type: directory
+              contents:
+              - path: /packages/plugin-icp/src/utils/common/data/json.ts
+                type: file
+          - path: /packages/plugin-icp/src/utils/number.ts
+            type: file
+          - path: /packages/plugin-icp/src/utils/ic
+            type: directory
+            contents:
+            - path: /packages/plugin-icp/src/utils/ic/principals.ts
+              type: file
+            - path: /packages/plugin-icp/src/utils/ic/index.ts
+              type: file
+          - path: /packages/plugin-icp/src/utils/arrays.ts
+            type: file
+        - path: /packages/plugin-icp/src/types.ts
+          type: file
+        - path: /packages/plugin-icp/src/actions
+          type: directory
+          contents:
+          - path: /packages/plugin-icp/src/actions/createToken.ts
+            type: file
+          - path: /packages/plugin-icp/src/actions/prompts
+            type: directory
+            contents:
+            - path: /packages/plugin-icp/src/actions/prompts/token.ts
+              type: file
+        - path: /packages/plugin-icp/src/index.ts
+          type: file
+    - path: /packages/create-eliza-app
+      type: directory
+      contents:
+      - path: /packages/create-eliza-app/README.md
+        type: file
+      - path: /packages/create-eliza-app/package.json
+        type: file
+      - path: /packages/create-eliza-app/registry
+        type: directory
+        contents:
+        - path: /packages/create-eliza-app/registry/eliza.json
+          type: file
+      - path: /packages/create-eliza-app/tsconfig.json
+        type: file
+      - path: /packages/create-eliza-app/eslint.config.mjs
+        type: file
+      - path: /packages/create-eliza-app/src
+        type: directory
+        contents:
+        - path: /packages/create-eliza-app/src/index.ts
+          type: file
+    - path: /packages/plugin-starknet
+      type: directory
+      contents:
+      - path: /packages/plugin-starknet/readme.md
+        type: file
+      - path: /packages/plugin-starknet/package.json
+        type: file
+      - path: /packages/plugin-starknet/tsup.config.ts
+        type: file
+      - path: /packages/plugin-starknet/tsconfig.json
+        type: file
+      - path: /packages/plugin-starknet/eslint.config.mjs
+        type: file
+      - path: /packages/plugin-starknet/src
+        type: directory
+        contents:
+        - path: /packages/plugin-starknet/src/types
+          type: directory
+          contents:
+          - path: /packages/plugin-starknet/src/types/trustDB.ts
+            type: file
+          - path: /packages/plugin-starknet/src/types/token.ts
+            type: file
+        - path: /packages/plugin-starknet/src/environment.ts
+          type: file
+        - path: /packages/plugin-starknet/src/providers
+          type: directory
+          contents:
+          - path: /packages/plugin-starknet/src/providers/portfolioProvider.ts
+            type: file
+          - path: /packages/plugin-starknet/src/providers/utils.ts
+            type: file
+          - path: /packages/plugin-starknet/src/providers/trustScoreProvider.ts
+            type: file
+          - path: /packages/plugin-starknet/src/providers/token.ts
+            type: file
+        - path: /packages/plugin-starknet/src/utils
+          type: directory
+          contents:
+          - path: /packages/plugin-starknet/src/utils/starknetId.ts
+            type: file
+          - path: /packages/plugin-starknet/src/utils/ERC20Token.ts
+            type: file
+          - path: /packages/plugin-starknet/src/utils/cache.ts
+            type: file
+          - path: /packages/plugin-starknet/src/utils/constants.ts
+            type: file
+          - path: /packages/plugin-starknet/src/utils/index.ts
+            type: file
+          - path: /packages/plugin-starknet/src/utils/erc20.json
+            type: file
+        - path: /packages/plugin-starknet/src/actions
+          type: directory
+          contents:
+          - path: /packages/plugin-starknet/src/actions/takeOrder.ts
+            type: file
+          - path: /packages/plugin-starknet/src/actions/unruggable.ts
+            type: file
+          - path: /packages/plugin-starknet/src/actions/transfer.ts
+            type: file
+          - path: /packages/plugin-starknet/src/actions/subdomain.ts
+            type: file
+          - path: /packages/plugin-starknet/src/actions/swap.ts
+            type: file
+          - path: /packages/plugin-starknet/src/actions/generate.ts
+            type: file
+        - path: /packages/plugin-starknet/src/index.ts
+          type: file
+    - path: /packages/adapter-sqljs
+      type: directory
+      contents:
+      - path: /packages/adapter-sqljs/package.json
+        type: file
+      - path: /packages/adapter-sqljs/tsup.config.ts
+        type: file
+      - path: /packages/adapter-sqljs/tsconfig.json
+        type: file
+      - path: /packages/adapter-sqljs/eslint.config.mjs
+        type: file
+      - path: /packages/adapter-sqljs/src
+        type: directory
+        contents:
+        - path: /packages/adapter-sqljs/src/sqliteTables.ts
+          type: file
+        - path: /packages/adapter-sqljs/src/types.ts
+          type: file
+        - path: /packages/adapter-sqljs/src/index.ts
+          type: file
+    - path: /packages/plugin-web-search
+      type: directory
+      contents:
+      - path: /packages/plugin-web-search/package.json
+        type: file
+      - path: /packages/plugin-web-search/tsup.config.ts
+        type: file
+      - path: /packages/plugin-web-search/tsconfig.json
+        type: file
+      - path: /packages/plugin-web-search/src
+        type: directory
+        contents:
+        - path: /packages/plugin-web-search/src/index.ts
+          type: file
+    - path: /packages/plugin-bootstrap
+      type: directory
+      contents:
+      - path: /packages/plugin-bootstrap/package.json
+        type: file
+      - path: /packages/plugin-bootstrap/tsup.config.ts
+        type: file
+      - path: /packages/plugin-bootstrap/tsconfig.json
+        type: file
+      - path: /packages/plugin-bootstrap/eslint.config.mjs
+        type: file
+      - path: /packages/plugin-bootstrap/src
+        type: directory
+        contents:
+        - path: /packages/plugin-bootstrap/src/providers
+          type: directory
+          contents:
+          - path: /packages/plugin-bootstrap/src/providers/index.ts
+            type: file
+          - path: /packages/plugin-bootstrap/src/providers/boredom.ts
+            type: file
+          - path: /packages/plugin-bootstrap/src/providers/facts.ts
+            type: file
+          - path: /packages/plugin-bootstrap/src/providers/time.ts
+            type: file
+        - path: /packages/plugin-bootstrap/src/evaluators
+          type: directory
+          contents:
+          - path: /packages/plugin-bootstrap/src/evaluators/goal.ts
+            type: file
+          - path: /packages/plugin-bootstrap/src/evaluators/fact.ts
+            type: file
+          - path: /packages/plugin-bootstrap/src/evaluators/index.ts
+            type: file
+        - path: /packages/plugin-bootstrap/src/actions
+          type: directory
+          contents:
+          - path: /packages/plugin-bootstrap/src/actions/muteRoom.ts
+            type: file
+          - path: /packages/plugin-bootstrap/src/actions/unfollowRoom.ts
+            type: file
+          - path: /packages/plugin-bootstrap/src/actions/continue.ts
+            type: file
+          - path: /packages/plugin-bootstrap/src/actions/ignore.ts
+            type: file
+          - path: /packages/plugin-bootstrap/src/actions/followRoom.ts
+            type: file
+          - path: /packages/plugin-bootstrap/src/actions/index.ts
+            type: file
+          - path: /packages/plugin-bootstrap/src/actions/none.ts
+            type: file
+          - path: /packages/plugin-bootstrap/src/actions/unmuteRoom.ts
+            type: file
+        - path: /packages/plugin-bootstrap/src/index.ts
+          type: file
+    - path: /packages/client-telegram
+      type: directory
+      contents:
+      - path: /packages/client-telegram/package.json
+        type: file
+      - path: /packages/client-telegram/tsup.config.ts
+        type: file
+      - path: /packages/client-telegram/tsconfig.json
+        type: file
+      - path: /packages/client-telegram/eslint.config.mjs
+        type: file
+      - path: /packages/client-telegram/src
+        type: directory
+        contents:
+        - path: /packages/client-telegram/src/getOrCreateRecommenderInBe.ts
+          type: file
+        - path: /packages/client-telegram/src/config
+          type: directory
+          contents:
+          - path: /packages/client-telegram/src/config/default.json5
+            type: file
+        - path: /packages/client-telegram/src/environment.ts
+          type: file
+        - path: /packages/client-telegram/src/index.ts
+          type: file
+        - path: /packages/client-telegram/src/messageManager.ts
+          type: file
+        - path: /packages/client-telegram/src/telegramClient.ts
+          type: file
+    - path: /packages/plugin-tee
+      type: directory
+      contents:
+      - path: /packages/plugin-tee/README.md
+        type: file
+      - path: /packages/plugin-tee/package.json
+        type: file
+      - path: /packages/plugin-tee/tsup.config.ts
+        type: file
+      - path: /packages/plugin-tee/tsconfig.json
+        type: file
+      - path: /packages/plugin-tee/src
+        type: directory
+        contents:
+        - path: /packages/plugin-tee/src/types
+          type: directory
+          contents:
+          - path: /packages/plugin-tee/src/types/tee.ts
+            type: file
+        - path: /packages/plugin-tee/src/providers
+          type: directory
+          contents:
+          - path: /packages/plugin-tee/src/providers/deriveKeyProvider.ts
+            type: file
+          - path: /packages/plugin-tee/src/providers/walletProvider.ts
+            type: file
+          - path: /packages/plugin-tee/src/providers/remoteAttestationProvider.ts
+            type: file
+        - path: /packages/plugin-tee/src/index.ts
+          type: file
+    - path: /packages/client-discord
+      type: directory
+      contents:
+      - path: /packages/client-discord/package.json
+        type: file
+      - path: /packages/client-discord/tsup.config.ts
+        type: file
+      - path: /packages/client-discord/tsconfig.json
+        type: file
+      - path: /packages/client-discord/eslint.config.mjs
+        type: file
+      - path: /packages/client-discord/src
+        type: directory
+        contents:
+        - path: /packages/client-discord/src/messages.ts
+          type: file
+        - path: /packages/client-discord/src/environment.ts
+          type: file
+        - path: /packages/client-discord/src/providers
+          type: directory
+          contents:
+          - path: /packages/client-discord/src/providers/voiceState.ts
+            type: file
+          - path: /packages/client-discord/src/providers/channelState.ts
+            type: file
+        - path: /packages/client-discord/src/utils.ts
+          type: file
+        - path: /packages/client-discord/src/voice.ts
+          type: file
+        - path: /packages/client-discord/src/templates.ts
+          type: file
+        - path: /packages/client-discord/src/attachments.ts
+          type: file
+        - path: /packages/client-discord/src/actions
+          type: directory
+          contents:
+          - path: /packages/client-discord/src/actions/summarize_conversation.ts
+            type: file
+          - path: /packages/client-discord/src/actions/chat_with_attachments.ts
+            type: file
+          - path: /packages/client-discord/src/actions/joinvoice.ts
+            type: file
+          - path: /packages/client-discord/src/actions/leavevoice.ts
+            type: file
+          - path: /packages/client-discord/src/actions/download_media.ts
+            type: file
+          - path: /packages/client-discord/src/actions/transcribe_media.ts
+            type: file
+        - path: /packages/client-discord/src/index.ts
+          type: file
+    - path: /packages/client-direct
+      type: directory
+      contents:
+      - path: /packages/client-direct/package.json
+        type: file
+      - path: /packages/client-direct/tsup.config.ts
+        type: file
+      - path: /packages/client-direct/tsconfig.json
+        type: file
+      - path: /packages/client-direct/eslint.config.mjs
+        type: file
+      - path: /packages/client-direct/src
+        type: directory
+        contents:
+        - path: /packages/client-direct/src/api.ts
+          type: file
+        - path: /packages/client-direct/src/README.md
+          type: file
+        - path: /packages/client-direct/src/index.ts
+          type: file
+    - path: /packages/client-twitter
+      type: directory
+      contents:
+      - path: /packages/client-twitter/package.json
+        type: file
+      - path: /packages/client-twitter/tsup.config.ts
+        type: file
+      - path: /packages/client-twitter/tsconfig.json
+        type: file
+      - path: /packages/client-twitter/eslint.config.mjs
+        type: file
+      - path: /packages/client-twitter/src
+        type: directory
+        contents:
+        - path: /packages/client-twitter/src/base.ts
+          type: file
+        - path: /packages/client-twitter/src/interactions.ts
+          type: file
+        - path: /packages/client-twitter/src/search.ts
+          type: file
+        - path: /packages/client-twitter/src/environment.ts
+          type: file
+        - path: /packages/client-twitter/src/utils.ts
+          type: file
+        - path: /packages/client-twitter/src/index.ts
+          type: file
+        - path: /packages/client-twitter/src/post.ts
+          type: file
+    - path: /packages/adapter-postgres
+      type: directory
+      contents:
+      - path: /packages/adapter-postgres/migrations
+        type: directory
+        contents:
+        - path: /packages/adapter-postgres/migrations/20240318103238_remote_schema.sql
+          type: file
+      - path: /packages/adapter-postgres/seed.sql
+        type: file
+      - path: /packages/adapter-postgres/schema.sql
+        type: file
+      - path: /packages/adapter-postgres/package.json
+        type: file
+      - path: /packages/adapter-postgres/tsup.config.ts
+        type: file
+      - path: /packages/adapter-postgres/tsconfig.json
+        type: file
+      - path: /packages/adapter-postgres/config.toml
+        type: file
+      - path: /packages/adapter-postgres/eslint.config.mjs
+        type: file
+      - path: /packages/adapter-postgres/src
+        type: directory
+        contents:
+        - path: /packages/adapter-postgres/src/index.ts
+          type: file
+    - path: /packages/plugin-image-generation
+      type: directory
+      contents:
+      - path: /packages/plugin-image-generation/package.json
+        type: file
+      - path: /packages/plugin-image-generation/tsup.config.ts
+        type: file
+      - path: /packages/plugin-image-generation/tsconfig.json
+        type: file
+      - path: /packages/plugin-image-generation/eslint.config.mjs
+        type: file
+      - path: /packages/plugin-image-generation/src
+        type: directory
+        contents:
+        - path: /packages/plugin-image-generation/src/environment.ts
+          type: file
+        - path: /packages/plugin-image-generation/src/index.ts
+          type: file
+    - path: /packages/adapter-supabase
+      type: directory
+      contents:
+      - path: /packages/adapter-supabase/seed.sql
+        type: file
+      - path: /packages/adapter-supabase/schema.sql
+        type: file
+      - path: /packages/adapter-supabase/package.json
+        type: file
+      - path: /packages/adapter-supabase/tsup.config.ts
+        type: file
+      - path: /packages/adapter-supabase/tsconfig.json
+        type: file
+      - path: /packages/adapter-supabase/config.toml
+        type: file
+      - path: /packages/adapter-supabase/eslint.config.mjs
+        type: file
+      - path: /packages/adapter-supabase/src
+        type: directory
+        contents:
+        - path: /packages/adapter-supabase/src/index.ts
+          type: file
+  - path: /commitlint.config.js
+    type: file
+  - path: /lerna.json
+    type: file
+  - path: /characters
+    type: directory
+    contents:
+    - path: /characters/tate.character.json
+      type: file
+    - path: /characters/pmurt47.character.json
+      type: file
+    - path: /characters/eternalai.character.json
+      type: file
+    - path: /characters/trump.character.json
+      type: file
+  - path: /client
+    type: directory
+    contents:
+    - path: /client/tsconfig.node.json
+      type: file
+    - path: /client/index.html
+      type: file
+    - path: /client/tailwind.config.js
+      type: file
+    - path: /client/tsconfig.app.json
+      type: file
+    - path: /client/public
+      type: directory
+      contents:
+      - path: /client/public/vite.svg
+        type: file
+    - path: /client/package.json
+      type: file
+    - path: /client/components.json
+      type: file
+    - path: /client/tsconfig.json
+      type: file
+    - path: /client/eslint.config.js
+      type: file
+    - path: /client/vite.config.ts
+      type: file
+    - path: /client/postcss.config.js
+      type: file
+    - path: /client/src
+      type: directory
+      contents:
+      - path: /client/src/Agent.tsx
+        type: file
+      - path: /client/src/App.tsx
+        type: file
+      - path: /client/src/main.tsx
+        type: file
+      - path: /client/src/Agents.tsx
+        type: file
+      - path: /client/src/App.css
+        type: file
+      - path: /client/src/index.css
+        type: file
+      - path: /client/src/components
+        type: directory
+        contents:
+        - path: /client/src/components/ui
+          type: directory
+          contents:
+          - path: /client/src/components/ui/card.tsx
+            type: file
+          - path: /client/src/components/ui/sheet.tsx
+            type: file
+          - path: /client/src/components/ui/tooltip.tsx
+            type: file
+          - path: /client/src/components/ui/sidebar.tsx
+            type: file
+          - path: /client/src/components/ui/separator.tsx
+            type: file
+          - path: /client/src/components/ui/button.tsx
+            type: file
+          - path: /client/src/components/ui/input.tsx
+            type: file
+          - path: /client/src/components/ui/skeleton.tsx
+            type: file
+        - path: /client/src/components/app-sidebar.tsx
+          type: file
+      - path: /client/src/router.tsx
+        type: file
+      - path: /client/src/vite-env.d.ts
+        type: file
+      - path: /client/src/hooks
+        type: directory
+        contents:
+        - path: /client/src/hooks/use-mobile.tsx
+          type: file
+      - path: /client/src/Layout.tsx
+        type: file
+      - path: /client/src/Character.tsx
+        type: file
+      - path: /client/src/lib
+        type: directory
+        contents:
+        - path: /client/src/lib/utils.ts
+          type: file
+      - path: /client/src/Chat.tsx
+        type: file
+      - path: /client/src/assets
+        type: directory
+        contents:
+        - path: /client/src/assets/react.svg
+          type: file
+  - path: /eslint.config.mjs
+    type: file
+  - path: /SECURITY.md
+    type: file
+  - path: /pnpm-workspace.yaml
+    type: file
+  - path: /backup-custom
+    type: directory
+    contents:
+    - path: /backup-custom/pmurt47.character.json
+      type: file
+    - path: /backup-custom/pmurt47.character before updated w PMURT token launch.json
+      type: file
+    - path: /backup-custom/eternalai.character.json
+      type: file
+    - path: /backup-custom/packages
+      type: directory
+      contents:
+      - path: /backup-custom/packages/client-twitter
+        type: directory
+        contents:
+        - path: /backup-custom/packages/client-twitter/src
+          type: directory
+          contents:
+          - path: /backup-custom/packages/client-twitter/src/post.ts
+            type: file
