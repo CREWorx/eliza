@@ -850,6 +850,14 @@ Text: ${attachment.text}
             lore = selectedLore.join("\n");
         }
 
+        let dailyNews = "";
+        if (this.character.dailyNews && this.character.dailyNews.length > 0) {
+            const selectedNews = this.character.dailyNews
+                .slice(0, 5)
+                .join("\n");
+            dailyNews = addHeader("# Daily Crypto News", selectedNews);
+        }
+
         const formattedCharacterPostExamples = this.character.postExamples
             .sort(() => 0.5 - Math.random())
             .map((post) => {
@@ -977,6 +985,9 @@ Text: ${attachment.text}
             agentName,
             bio,
             lore,
+            dailyNews: Array.isArray(this.character.dailyNews)
+                ? this.character.dailyNews
+                : [],
             adjective:
                 this.character.adjectives &&
                 this.character.adjectives.length > 0

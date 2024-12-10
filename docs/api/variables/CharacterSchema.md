@@ -40,6 +40,10 @@ Main Character schema
 
 > **lore**: `ZodArray`\<`ZodString`, `"many"`\>
 
+### dailyNews
+
+> **dailyNews**: `ZodOptional`\<`ZodArray`\<`ZodString`, `"many"`\>\>
+
 ### messageExamples
 
 > **messageExamples**: `ZodArray`\<`ZodArray`\<`ZodObject`\<`object`, `"strip"`, `ZodTypeAny`, `object`, `object`\>, `"many"`\>, `"many"`\>
@@ -100,4 +104,4 @@ Main Character schema
 
 ## Defined in
 
-[packages/core/src/environment.ts:66](https://github.com/ai16z/eliza/blob/main/packages/core/src/environment.ts#L66)
+[packages/core/src/environment.ts:66](https://github.com/CREWorx/eliza/blob/main/packages/core/src/environment.ts#L66)

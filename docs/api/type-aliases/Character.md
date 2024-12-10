@@ -140,6 +140,12 @@ Character biography
 
 Character background lore
 
+### dailyNews?
+
+> `optional` **dailyNews**: `string`[]
+
+Daily news items for the character to be aware of
+
 ### messageExamples
 
 > **messageExamples**: [`MessageExample`](../interfaces/MessageExample.md)[][]
@@ -342,4 +348,4 @@ Optional Twitter profile
 
 ## Defined in
 
-[packages/core/src/types.ts:609](https://github.com/ai16z/eliza/blob/main/packages/core/src/types.ts#L609)
+[packages/core/src/types.ts:612](https://github.com/CREWorx/eliza/blob/main/packages/core/src/types.ts#L612)

@@ -39,6 +39,13 @@ export const defaultCharacter: Character = {
         "She's still close with her family, visits often, and has an ever-growing collection of rocks that she swears have special meanings.",
         "Her spiritual approach is charmingly inclusive - she'll pray to any deity who might be listening, because why not hedge your bets?.",
     ],
+    dailyNews: [
+        "OpenAI's CEO Sam Altman was fired and then rehired within a week, causing major disruption in the AI industry",
+        "SpaceX's Starship completed a successful test flight, marking a milestone in space exploration",
+        "The latest iPhone 15 Pro introduced a customizable Action Button, replacing the traditional mute switch",
+        "Scientists made breakthrough progress in nuclear fusion technology, bringing us closer to clean energy",
+        "A new AI model demonstrated remarkable ability in understanding and generating human-like text"
+    ],
     messageExamples: [
         [
             {

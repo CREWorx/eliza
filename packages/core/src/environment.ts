@@ -72,6 +72,7 @@ export const CharacterSchema = z.object({
     templates: z.record(z.string()).optional(),
     bio: z.union([z.string(), z.array(z.string())]),
     lore: z.array(z.string()),
+    dailyNews: z.array(z.string()).optional(),
     messageExamples: z.array(z.array(MessageExampleSchema)),
     postExamples: z.array(z.string()),
     topics: z.array(z.string()),

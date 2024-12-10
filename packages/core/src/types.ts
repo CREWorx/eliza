@@ -248,6 +248,9 @@ export interface State {
     /** Agent's background lore */
     lore: string;
 
+    /** Agent's daily news items */
+    dailyNews?: string[];
+
     /** Message handling directions */
     messageDirections: string;
 
@@ -655,6 +658,9 @@ export type Character = {
 
     /** Character background lore */
     lore: string[];
+
+    /** Daily news items for the character to be aware of */
+    dailyNews?: string[];
 
     /** Example messages */
     messageExamples: MessageExample[][];

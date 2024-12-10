@@ -38,6 +38,10 @@ describe("defaultCharacter", () => {
         expect(defaultCharacter.lore.length).toBeGreaterThan(0);
     });
 
+    it("should have a dailyNews array with at least one entry", () => {
+        expect(defaultCharacter.dailyNews?.length).toBeGreaterThan(0);
+    });
+
     it("should have messageExamples array with at least one example", () => {
         expect(defaultCharacter.messageExamples.length).toBeGreaterThan(0);
     });

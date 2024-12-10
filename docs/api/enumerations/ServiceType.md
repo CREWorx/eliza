@@ -10,7 +10,7 @@
 
 #### Defined in
 
-[packages/core/src/types.ts:1138](https://github.com/ai16z/eliza/blob/main/packages/core/src/types.ts#L1138)
+[packages/core/src/types.ts:1144](https://github.com/CREWorx/eliza/blob/main/packages/core/src/types.ts#L1144)
 
 ***
 
@@ -20,7 +20,7 @@
 
 #### Defined in
 
-[packages/core/src/types.ts:1139](https://github.com/ai16z/eliza/blob/main/packages/core/src/types.ts#L1139)
+[packages/core/src/types.ts:1145](https://github.com/CREWorx/eliza/blob/main/packages/core/src/types.ts#L1145)
 
 ***
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-[packages/core/src/types.ts:1140](https://github.com/ai16z/eliza/blob/main/packages/core/src/types.ts#L1140)
+[packages/core/src/types.ts:1146](https://github.com/CREWorx/eliza/blob/main/packages/core/src/types.ts#L1146)
 
 ***
 
@@ -40,7 +40,7 @@
 
 #### Defined in
 
-[packages/core/src/types.ts:1141](https://github.com/ai16z/eliza/blob/main/packages/core/src/types.ts#L1141)
+[packages/core/src/types.ts:1147](https://github.com/CREWorx/eliza/blob/main/packages/core/src/types.ts#L1147)
 
 ***
 
@@ -50,7 +50,7 @@
 
 #### Defined in
 
-[packages/core/src/types.ts:1142](https://github.com/ai16z/eliza/blob/main/packages/core/src/types.ts#L1142)
+[packages/core/src/types.ts:1148](https://github.com/CREWorx/eliza/blob/main/packages/core/src/types.ts#L1148)
 
 ***
 
@@ -60,7 +60,7 @@
 
 #### Defined in
 
-[packages/core/src/types.ts:1143](https://github.com/ai16z/eliza/blob/main/packages/core/src/types.ts#L1143)
+[packages/core/src/types.ts:1149](https://github.com/CREWorx/eliza/blob/main/packages/core/src/types.ts#L1149)
 
 ***
 
@@ -70,7 +70,7 @@
 
 #### Defined in
 
-[packages/core/src/types.ts:1144](https://github.com/ai16z/eliza/blob/main/packages/core/src/types.ts#L1144)
+[packages/core/src/types.ts:1150](https://github.com/CREWorx/eliza/blob/main/packages/core/src/types.ts#L1150)
 
 ***
 
@@ -80,4 +80,4 @@
 
 #### Defined in
 
-[packages/core/src/types.ts:1145](https://github.com/ai16z/eliza/blob/main/packages/core/src/types.ts#L1145)
+[packages/core/src/types.ts:1151](https://github.com/CREWorx/eliza/blob/main/packages/core/src/types.ts#L1151)
